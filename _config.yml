@@ -9,9 +9,9 @@
 title: Bloog # ex. I m Chuan
 name: wangrd # ex. DONGChuan
 email: wang.renda@qq.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
+location: KunMing,China # ex. Nice, France
+company: Holly Source
+company_url: hollysource.com
 github_url: https://github.com/wangrd # ex. https://github.com/DONGChuan
 github_username: wangrd # ex. DONGChuan
 description: More Thinking And More Thought!
@@ -50,6 +50,17 @@ kramdown:
 # Disque
 disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 767a15c186a319e9e0d3                            #生成的clientID
+  clientSecret: 5dd08a912ff9c4e3bd4a20f9114e7760ac6421fb    #生成的clientSecret
+  repo: wangrd.github.io    #仓库名称
+  owner: wangrd    #github用户名
+  admin: wangrd
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
@@ -80,16 +91,19 @@ navs:
 side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
-analytics :
-  provider : google
-  google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+# analytics :
+  # provider : google
+  # google :
+      # tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      
+# Baidu Analytics
+ba_track_id: bca8bf0f5e377e0c08ed185f08bd0a37
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_software_keywords: [C#, C, Oracle, SQLite, PL/SQL]
+skill_dotnet_keywords: [WebService, WinForm, Dev, IBatis, Log4Net, RabbitMQ]
+skill_tools_keywords: [Git,SVN,VS,PLSQL]
+skill_trade_keywords: [HIS,Interface]
 
 theme: jekyll-theme-dinky
