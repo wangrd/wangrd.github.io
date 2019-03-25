@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+﻿# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -24,7 +24,7 @@ repository: wangrd/wangrd.github.io # ex. DONGChuan/DONGChuan.github.io
 url: wangrd.github.io
 
 ## Gem
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-geo-pattern
   - rouge
@@ -98,6 +98,7 @@ side_bar_repo_limit: 5 # Number of repos to show
       
 # Baidu Analytics
 ba_track_id: a6fccf2d6bfd720ff5ea298883fe6099
+ba_track_id_other: a22b88ecb3b906fdc2f50d05c1e66132
 
 
 # For about.html. Fell free to create your own!
